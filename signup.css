@@ -1,0 +1,173 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.signup-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 0.3rem;
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.form-options {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.form-options a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.form-options a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.otp-validation-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.otp-validation-container p2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.otp-validation-container h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    margin-top: 0.3rem;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.validate-otp-button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.validate-otp-button:hover {
+    background-color: #0056b3;
+}
+
+.validate-otp-button:active {
+    background-color: #00408d;
+}

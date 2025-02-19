@@ -1,0 +1,158 @@
+/* signup.css */
+
+/* General Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+}
+
+.signup-container h1 {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signup-container p {
+    color: #555;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+    border-color: #45a049;
+}
+
+.form-group small {
+    display: block;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.otp-validation-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.otp-validation-container p2 {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.otp-validation-container .form-group {
+    margin-bottom: 15px;
+}
+
+.otp-validation-container .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.validate-otp-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #45a049;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.validate-otp-button:hover {
+    background-color: #45a049;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1rem;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.signup-button:hover {
+    background-color: #45a049;
+}
+
+.form-options {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-options a {
+    color: #45a049;
+    text-decoration: none;
+}
+
+.form-options a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        padding: 20px 30px;
+    }
+
+    .signup-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+    }
+
+    .signup-button {
+        font-size: 1rem;
+    }
+}
